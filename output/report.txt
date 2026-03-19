@@ -1,0 +1,4 @@
+=== RELATÓRIO DE ANÁLISE ===
+Ficheiro analisado: data/sample.log
+Total de linhas encontradas: 10000
+Status: Concluído com sucesso.
