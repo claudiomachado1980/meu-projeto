@@ -1,0 +1,8 @@
+RELATÓRIO FINAL
+----------------------------
+Total linhas: 10000
+Total erros: 1662
+IPs únicos: 58
+Top IP:     208 192.168.1.10
+Downloads: 1726
+----------------------------
