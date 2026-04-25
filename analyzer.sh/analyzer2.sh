@@ -3,17 +3,25 @@
 file=$1
 errors=0
 
-if [ ! -f "$file" ]; then
-    echo "Erro: ficheiro não encontrado"
+# --- VALIDAÇÃO ---
+if [ -z "$file" ]; then
+    echo "❌ Erro: Por favor, indica o nome do ficheiro de log."
+    echo "Exemplo: ./analyzer2.sh 10000.log"
     exit 1
 fi
 
-echo "A analisar 10.000 linhas de forma otimizada..."
+if [ ! -f "$file" ]; then
+    echo "❌ Erro: O ficheiro '$file' não foi encontrado nesta pasta."
+    exit 1
+fi
 
-while read -r line
+echo "A analisar o ficheiro com loop linha a linha..."
+
+# Lê o ficheiro linha a linha usando um loop
+while IFS= read -r line
 do
-    # Usa a lógica interna do Bash [[ ]] em vez de chamar o grep externo
-    if [[ "$line" =~ "401" || "$line" =~ "403" || "$line" =~ "404" || "$line" =~ "500" ]]; then
+    # Verifica se a linha contém " ERROR " (com espaços para evitar falsos positivos)
+    if [[ "$line" == *" ERROR "* ]]; then
         ((errors++))
     fi
 done < "$file"

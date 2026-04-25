@@ -1,0 +1,35 @@
+==============================================
+         RELATÓRIO FINAL DE ANÁLISE          
+==============================================
+Ficheiro analisado : 10000.log
+Data de geração    : 2026-04-25 09:40:25
+Filtro ação        : DOWNLOAD
+----------------------------------------------
+
+--- ESTATÍSTICAS GERAIS ---
+Total de linhas        : 1726
+Total de erros         : 0
+IPs únicos             : 58
+Utilizadores únicos    : 24
+
+--- ATIVIDADE ---
+Downloads              : 1726
+Uploads                : 0
+Erros 500              : 0
+
+--- TOPS ---
+Top IP                 : 192.168.1.10 (44 acessos)
+Utilizador mais ativo  : user14 (90 ações)
+Recurso mais acedido   : /login (328 vezes)
+Utilizador c/ mais DL  : user14 (90 downloads)
+IP com mais erros 500  : 
+Recurso com mais erros : 
+
+--- TOP 5 IPs ---
+  44 acessos  →  192.168.1.10
+  41 acessos  →  192.168.1.14
+  40 acessos  →  192.168.1.13
+  39 acessos  →  192.168.1.56
+  38 acessos  →  192.168.1.52
+
+==============================================
