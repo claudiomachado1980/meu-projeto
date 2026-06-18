@@ -1,0 +1,5 @@
+codigo;descricao;sala;situacao
+PCF001;Computador HP;Sala TIC;Bom
+CADF001;Cadeira Azul;Sala 1;Novo
+PRJF001;Projetor Epson;Auditório;Danificado
+ARMF001;Armário Metálico;Secretaria;Bom

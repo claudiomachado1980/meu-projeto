@@ -1,0 +1,9 @@
+COM0001;Computador;Equipamento Informático;Em Reparação;Biblioteca
+COM9001;Computador;Equipamento Informático;Bom;Sala TIC
+MSA9001;Mesa Aluno;Mobiliário;Novo;Sala 1
+PRJ9001;Projetor;Equipamento Informático;Danificado;Auditório
+CAD9001;Cadeira;Mobiliário;Bom;Sala 2
+COM9002;Computador HP;Equipamento Informático;Bom;Sala TIC
+CAA0001;Cadeira Azul;Mobiliário;Novo;Sala 1
+PRJ9002;Projetor Epson;Equipamento Informático;Danificado;Auditório
+ARM0001;Armário Metálico;Material Administrativo;Bom;Secretaria

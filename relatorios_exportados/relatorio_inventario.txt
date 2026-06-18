@@ -1,0 +1,21 @@
+RELATÓRIO GERAL DO INVENTÁRIO
+==================================================
+
+Total de bens registados: 5
+
+Resumo por categoria:
+- Equipamento Informático: 3
+- Mobiliário: 2
+
+Resumo por estado:
+- Em Reparação: 1
+- Bom: 2
+- Novo: 1
+- Danificado: 1
+
+Resumo por localização:
+- Biblioteca: 1
+- Sala TIC: 1
+- Sala 1: 1
+- Auditório: 1
+- Sala 2: 1

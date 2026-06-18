@@ -1,0 +1,5 @@
+id;nome;categoria;estado;localizacao
+COM9001;Computador;Equipamento Informático;Bom;Sala TIC
+MSA9001;Mesa Aluno;Mobiliário;Novo;Sala 1
+PRJ9001;Projetor;Equipamento Informático;Danificado;Auditório
+CAD9001;Cadeira;Mobiliário;Bom;Sala 2
